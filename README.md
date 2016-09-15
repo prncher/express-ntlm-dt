@@ -2,6 +2,7 @@
 The definitely Typed typedefs for typescript
 
 Here is how to use it from a typescript file.
+---------------------------------------------------
 
 
 import express = require('express');
