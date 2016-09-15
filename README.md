@@ -2,9 +2,9 @@
 The definitely Typed typedefs for typescript
 
 Here is how to use it from a typescript file.
----------------------------------------------------
+----------------------------------------------
 
-
+```javascript
 import express = require('express');
 import ntlm = require('express-ntlm');
 
@@ -14,4 +14,4 @@ app.use(ntlm());
 app.get('/', (req: ntlm.Request, res: express.Response) => {
 res.end(JSON.stringify(req.ntlm));
 });
-
+...
