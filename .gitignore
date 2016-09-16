@@ -1,0 +1,8 @@
+# Files not required
+package.json
+typings.json
+*.js
+
+# Directories not required.
+node_modules/
+typings/
